@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<!DOCTYPE JaGrif-Tree SYSTEM "file:/Dtd/TDoc.dtd">
+<JaGrif-Tree>
+	<dtd-version id="11" baseid="16" appl="12.9.0.0"/>
+	<license type="PROTEC" soc="SOC_DEMO"/>
+	<gen>
+		<logprop name="name" value=""/>
+		<logprop name="date" value="28 September 2020"/>
+		<logprop name="version" value=""/>
+		<logprop name="pid" value=""/>
+		<logprop name="author" value="etudiant"/>
+		<logprop name="histo" value="12.9.0.0"/>
+		<logprop name="comment" value=""/>
+		<logprop name="file" value="F&#x003A;\\UPSSITECH\\tp1sdf.jtr"/>
+	</gen>
+	<options>
+		<option key="Appl" id="LightBatch" value="false"/>
+		<option key="Appl" id="TrackModif" value="false"/>
+		<option key="Aralia" id="Activatepropag" value="false"/>
+		<option key="Aralia" id="ActivatepropagIF" value="false"/>
+		<option key="Aralia" id="AlbiziaIndexHeuristic" value="FFK88"/>
+		<option key="Aralia" id="Allocation" value="false"/>
+		<option key="Aralia" id="Availability" value="false"/>
+		<option key="Aralia" id="BDDTruncatedOrder" value="-1"/>
+		<option key="Aralia" id="BFRAlgo" value="NUCLEAR_NO_CONCAT"/>
+		<option key="Aralia" id="ConfPercent" value="90"/>
+		<option key="Aralia" id="ConfPercentIF" value="90"/>
+		<option key="Aralia" id="ConfRangePosition" value="0"/>
+		<option key="Aralia" id="ConfRangePositionIF" value="0"/>
+		<option key="Aralia" id="CutsProba" value="false"/>
+		<option key="Aralia" id="CutsTime" value="8760.0"/>
+		<option key="Aralia" id="CutsW" value="false"/>
+		<option key="Aralia" id="CutsXML" value="false"/>
+		<option key="Aralia" id="CutsetTruncatedOrder" value="-1"/>
+		<option key="Aralia" id="CutsetTruncatedProba" value="-1.0"/>
+		<option key="Aralia" id="CutsetsAlgo" value="MCS"/>
+		<option key="Aralia" id="CutsetsAutoCfg" value="true"/>
+		<option key="Aralia" id="Cutslist" value="true"/>
+		<option key="Aralia" id="Cutsnumber" value="false"/>
+		<option key="Aralia" id="CutsnumberMax" value="10000000"/>
+		<option key="Aralia" id="Cutssynthesys" value="false"/>
+		<option key="Aralia" id="Discont" value="true"/>
+		<option key="Aralia" id="DiscontIF" value="false"/>
+		<option key="Aralia" id="ExpDormSimplified" value="false"/>
+		<option key="Aralia" id="Externaljvm" value="false"/>
+		<option key="Aralia" id="Externaljvmoptions" value="-mx1500M"/>
+		<option key="Aralia" id="Factorbp" value="false"/>
+		<option key="Aralia" id="Factorcif" value="false"/>
+		<option key="Aralia" id="Factordif" value="true"/>
+		<option key="Aralia" id="Factormif" value="false"/>
+		<option key="Aralia" id="Factorraw" value="false"/>
+		<option key="Aralia" id="Factorrrw" value="false"/>
+		<option key="Aralia" id="MIFManualAlgoMIF" value="false"/>
+		<option key="Aralia" id="MIFManualAlgoUFIInit" value="false"/>
+		<option key="Aralia" id="MIFManualAlgoUFINormal" value="false"/>
+		<option key="Aralia" id="MIFTypeMIF" value="1"/>
+		<option key="Aralia" id="MIFTypeUFIInit" value="1"/>
+		<option key="Aralia" id="MIFTypeUFINormal" value="1"/>
+		<option key="Aralia" id="Mean" value="false"/>
+		<option key="Aralia" id="Nbhisto" value="1"/>
+		<option key="Aralia" id="NbhistoIF" value="1"/>
+		<option key="Aralia" id="ObsUncertFreeDom" value="0"/>
+		<option key="Aralia" id="ObsUncertFreeDomNoObs" value="1"/>
+		<option key="Aralia" id="ProbaF" value="false"/>
+		<option key="Aralia" id="ProbaFscales" value="PFD"/>
+		<option key="Aralia" id="ProbaR" value="false"/>
+		<option key="Aralia" id="Probability" value="true"/>
+		<option key="Aralia" id="Probabilityscales" value="PFD"/>
+		<option key="Aralia" id="Probalbdeq" value="false"/>
+		<option key="Aralia" id="Probalbdeqscales" value="NONE"/>
+		<option key="Aralia" id="Probaw" value="false"/>
+		<option key="Aralia" id="Probawscales" value="PFH"/>
+		<option key="Aralia" id="ProductsFailureComponent" value="false"/>
+		<option key="Aralia" id="ProductsFailureMode" value="true"/>
+		<option key="Aralia" id="ProductsFailureSystems" value="false"/>
+		<option key="Aralia" id="RamsDefault" value="Mean"/>
+		<option key="Aralia" id="RamsMeanValues" value="false"/>
+		<option key="Aralia" id="RateBetaModAlpha" value="0.5"/>
+		<option key="Aralia" id="RateBetaModBeta" value="0.0"/>
+		<option key="Aralia" id="Scales" value="false"/>
+		<option key="Aralia" id="Seed" value="12345678"/>
+		<option key="Aralia" id="ShortestCutSynt" value="false"/>
+		<option key="Aralia" id="Sum" value="false"/>
+		<option key="Aralia" id="Target" value="1"/>
+		<option key="Aralia" id="TargetsIF" value="1"/>
+		<option key="Aralia" id="TargetsProduct" value="1"/>
+		<option key="Aralia" id="TargetsSelected" value="Evt2\t"/>
+		<option key="Aralia" id="TargetsTimeSpent" value="5"/>
+		<option key="Aralia" id="Times" value="auto 10000"/>
+		<option key="Aralia" id="TimesIF" value="at 1000"/>
+		<option key="Aralia" id="TimesUniIFt" value="HOUR"/>
+		<option key="Aralia" id="TimesUnit" value="HOUR"/>
+		<option key="Aralia" id="UFINormInit" value="false"/>
+		<option key="Aralia" id="UFINormNormal" value="false"/>
+		<option key="Aralia" id="UFIWithoutInit" value="false"/>
+		<option key="Aralia" id="WCutsAlgo" value="ARP4761A_GRIF"/>
+		<option key="Aralia" id="ZBDDTruncatedOrder" value="-1"/>
+		<option key="Aralia" id="forceZBDD" value="false"/>
+		<option key="Aralia" id="withBackSoP" value="false"/>
+		<option key="AutoLayout" id="AfterResize" value="false"/>
+		<option key="AutoLayout" id="MaxEvtPerLine" value="4"/>
+		<option key="AutoLayout" id="WithSymbol" value="true"/>
+		<option key="Bool" id="CCFActivated" value="true"/>
+		<option key="Bool" id="EvtCCFTransform" value="true"/>
+		<option key="Bool" id="LambdaDCCComputation" value="MAX"/>
+		<option key="Bool" id="RemoveUnusedCCF" value="true"/>
+		<option key="Bool" id="RiskCompMax" value="false"/>
+		<option key="Bool" id="SimplifyTestParam" value="false"/>
+		<option key="Bool" id="SpuriousComp" value="false"/>
+		<option key="Bool" id="SumBetaComps" value="false"/>
+		<option key="Bool" id="SysCompMode" value="0"/>
+		<option key="Bool" id="UseAllocPrefix" value="false"/>
+		<option key="Comment" id="RectPaintCfg" value="null,null,false,0,1"/>
+		<option key="Comment" id="TxtPaintCfg" value="SansSerif,-16776961,12,true,false,0.0,2,2,false"/>
+		<option key="CommentDyn" id="RectPaintCfg" value="null,-65536,true,0,1"/>
+		<option key="CommentDyn" id="TxtPaintCfg" value="SansSerif,-65536,10,true,false,0.0,2,2,false"/>
+		<option key="Courbe" id="Encadre" value="true"/>
+		<option key="Courbe" id="Geneencadre" value="false"/>
+		<option key="Courbe" id="Genesize" value="12.0"/>
+		<option key="Courbe" id="Styleaxesnames" value="true"/>
+		<option key="Courbe" id="Stylecoordsize" value="9"/>
+		<option key="Courbe" id="Stylegrid" value="true"/>
+		<option key="Courbe" id="Stylegridgraph" value="true"/>
+		<option key="Courbe" id="Stylelegende" value="true"/>
+		<option key="Courbe" id="Stylelegendsize" value="12"/>
+		<option key="Courbe" id="Stylepointssize" value="5"/>
+		<option key="Courbe" id="Styletransparency" value="false"/>
+		<option key="Courbe" id="Titlealign" value="CENTER"/>
+		<option key="Courbe" id="Titlesize" value="20.0"/>
+		<option key="Courbe" id="Transparency" value="true"/>
+		<option key="Digits" id="Format" value="1000.0 0.01 1 4 false true 1.0E-16 false|false,false,G,R,I,F,C,O,N,T,A,B"/>
+		<option key="Display" id="CondensateRmk" value="false"/>
+		<option key="Display" id="DefaultPgH" value="850"/>
+		<option key="Display" id="DefaultPgW" value="1200"/>
+		<option key="Display" id="Grid.Actived" value="false"/>
+		<option key="Display" id="Grid.Draw" value="false"/>
+		<option key="Display" id="Grid.Size" value="40"/>
+		<option key="Display" id="HideNotComputedInfo" value="true"/>
+		<option key="Display" id="PreferredUnitRate" value="HOUR_1"/>
+		<option key="Display" id="PreferredUnitTime" value="HOUR"/>
+		<option key="Display" id="Reticule" value="true"/>
+		<option key="Document" id="Zoom" value="1.0"/>
+		<option key="Document" id="ZoomGlobal" value="false"/>
+		<option key="Element" id="Zoom" value="1.0"/>
+		<option key="Event" id="AddInfoString" value="$result.bank(/default).target(/nodes/PR/default).value.last\t$result.bank(/default).target(/nodes/PR/default).value.avg\t"/>
+		<option key="Event" id="AddRectForRef" value="2"/>
+		<option key="Event" id="AllocValue" value="false false"/>
+		<option key="Event" id="AlphaShorcut" value="0.2"/>
+		<option key="Event" id="Attributs" value="false true"/>
+		<option key="Event" id="Attributs.Default.Val" value="true true"/>
+		<option key="Event" id="Desc" value="true true"/>
+		<option key="Event" id="Id" value="true false"/>
+		<option key="Event" id="Law" value="false true"/>
+		<option key="Event" id="Law.Default" value="[Aralia]exponential 0.001"/>
+		<option key="Event" id="Law.Default.Used" value="true"/>
+		<option key="Event" id="Name" value="true true"/>
+		<option key="Event" id="RectPaintCfg" value="-1,-16777216,false,0,1"/>
+		<option key="Event" id="RectPaintCfgAlloc" value="-65536,-16777216,false,0,1,false"/>
+		<option key="Event" id="RemarkRectTxtPaintCvt" value="SansSerif,-16777216,10,false,false,0.0,2,2,false"/>
+		<option key="Event" id="RmkHeight" value="40"/>
+		<option key="Event" id="RmkWidth" value="100"/>
+		<option key="Event" id="TargetValue" value="false false"/>
+		<option key="Event" id="TxtPaintCfg" value="SansSerif,-16777216,10,false,false,0.0,1,1,false"/>
+		<option key="Event" id="ccf" value="false true"/>
+		<option key="Gate" id="AddInfoString" value="$result.bank(/default).target(/nodes/PR/default).value.last\t$result.bank(/default).target(/nodes/PR/default).value.avg\t"/>
+		<option key="Gate" id="AllocValue" value="false false"/>
+		<option key="Gate" id="Attributs" value="false true"/>
+		<option key="Gate" id="Attributs.Default.Val" value="true true"/>
+		<option key="Gate" id="Desc" value="true true"/>
+		<option key="Gate" id="Id" value="false false"/>
+		<option key="Gate" id="KofN" value="true true"/>
+		<option key="Gate" id="Name" value="true true"/>
+		<option key="Gate" id="RectPaintCfg" value="-1,-16777216,false,0,1"/>
+		<option key="Gate" id="RectPaintCfgAlloc" value="-65536,-16777216,false,0,1,false"/>
+		<option key="Gate" id="RemarkRectTxtPaintCvt" value="SansSerif,-16777216,10,false,false,0.0,2,2,false"/>
+		<option key="Gate" id="ReportLoc" value="false false"/>
+		<option key="Gate" id="RmkHeight" value="40"/>
+		<option key="Gate" id="RmkWidth" value="100"/>
+		<option key="Gate" id="ShortCutTriangleHeight" value="20"/>
+		<option key="Gate" id="ShortCutTriangleWidth" value="30"/>
+		<option key="Gate" id="TargetValue" value="false false"/>
+		<option key="Gate" id="TxtPaintCfg" value="SansSerif,-16777216,10,false,false,0.0,1,1,false"/>
+		<option key="Group" id="TxtPaintCfg" value="SansSerif,-16777216,12,false,false,0.0,2,2,false"/>
+		<option key="Laws" id="Law.ShowParamUnit" value="false"/>
+		<option key="Laws" id="ShowFactor" value="false"/>
+		<option key="Moca" id="ActivateTries" value="false"/>
+		<option key="Moca" id="AddCmd" value=""/>
+		<option key="Moca" id="AutoDuration" value="true"/>
+		<option key="Moca" id="BankName" value="ResGRIF"/>
+		<option key="Moca" id="BinResName" value="mocaBin.res"/>
+		<option key="Moca" id="CompAllNodes" value="false"/>
+		<option key="Moca" id="ComputeTimes" value="at 10000"/>
+		<option key="Moca" id="ComputeTimesUnit" value="Heure(s)"/>
+		<option key="Moca" id="ComputeTypes" value="3,4,5,6"/>
+		<option key="Moca" id="ConfPercent" value="90.0"/>
+		<option key="Moca" id="ContinueCompute" value="false"/>
+		<option key="Moca" id="ContinueOnError" value="false"/>
+		<option key="Moca" id="DelayCompute" value="10.0"/>
+		<option key="Moca" id="DelayHistory" value="10000.0"/>
+		<option key="Moca" id="DisablePlTrStat" value="false"/>
+		<option key="Moca" id="DisplayAttributs" value="false"/>
+		<option key="Moca" id="DynTransAlgo" value="1"/>
+		<option key="Moca" id="English" value="false"/>
+		<option key="Moca" id="ExportOnlyMocaData" value="false"/>
+		<option key="Moca" id="FileToStore" value=""/>
+		<option key="Moca" id="FormatMoca" value="Moca12XML"/>
+		<option key="Moca" id="Histo.Class.St" value="10"/>
+		<option key="Moca" id="Histo.Class.Tr" value="10"/>
+		<option key="Moca" id="Histo.Display.St" value="2"/>
+		<option key="Moca" id="Histo.Display.Tr" value="1"/>
+		<option key="Moca" id="Histo.DonotSave0" value="false"/>
+		<option key="Moca" id="Histo.Unlimited" value="false"/>
+		<option key="Moca" id="LoopDetect" value="1000"/>
+		<option key="Moca" id="LoopWhileDetect" value="10000"/>
+		<option key="Moca" id="MultiProc" value="false"/>
+		<option key="Moca" id="NbHstDone" value="0"/>
+		<option key="Moca" id="NbLotComputed" value="0"/>
+		<option key="Moca" id="NbProc" value="2"/>
+		<option key="Moca" id="NbrHistory" value="10"/>
+		<option key="Moca" id="NbrTries" value="10000"/>
+		<option key="Moca" id="NetName" value="PetriNet"/>
+		<option key="Moca" id="OldSeedMngt" value="false"/>
+		<option key="Moca" id="OutTab" value="1"/>
+		<option key="Moca" id="Precision" value="12"/>
+		<option key="Moca" id="PrintDelay" value="false"/>
+		<option key="Moca" id="ReduceNbProc" value="false"/>
+		<option key="Moca" id="Seed" value="12345681"/>
+		<option key="Moca" id="SeedHst" value="false"/>
+		<option key="Moca" id="SeqGenMinAlgo" value="NONE"/>
+		<option key="Moca" id="SeqGenMode" value="false"/>
+		<option key="Moca" id="SeqGenSeed" value="false"/>
+		<option key="Moca" id="SeqGenTgt" value=""/>
+		<option key="Moca" id="SimulOutput" value=""/>
+		<option key="Moca" id="SplitTries" value="false"/>
+		<option key="Moca" id="TimesType" value="0"/>
+		<option key="Moca" id="Title" value=""/>
+		<option key="Moca" id="Unlimited" value="0.0"/>
+		<option key="Moca" id="Verbose" value="true"/>
+		<option key="Moca" id="WithBinRes" value="false"/>
+		<option key="PanelEditLog.10" id="Sort" type="SORTER" value="11,ASCENDING"/>
+		<option key="PanelEditLog.52" id="Sort" type="SORTER" value="0,ASCENDING"/>
+		<option key="PolyLink" id="Adjust.Alpha" value="15.0"/>
+		<option key="PolyLink" id="Adjust.Delta" value="30"/>
+		<option key="PolyLink" id="Adjust.Exclude" value="10"/>
+		<option key="PolyLink" id="Hide.Distance" value="10"/>
+		<option key="Report" id="Location" value="true"/>
+		<option key="Symbol" id="Height" value="30"/>
+		<option key="Symbol" id="TopMargin" value="5"/>
+		<option key="Symbol" id="Width" value="30"/>
+		<option key="Tool" id="DrawDesc" value="true"/>
+		<option key="Tool" id="DrawLabel" value="true"/>
+		<option key="tlink" id="Arrow.Height" value="8.0"/>
+		<option key="tlink" id="Arrow.Raised" value="true"/>
+		<option key="tlink" id="Arrow.Width" value="4.0"/>
+	</options>
+	<pages-manager next-id="53">
+		<page id="1638780523209" name="Page 1" w="1200.0" h="850.0" mngtype="1">
+			<grf id="9" idx="13" t="gate" x="473.0" y="49.5" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="11" idx="14" t="gate" x="693.0" y="216.5" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="13" idx="12" t="link" src="11" dest="9"></grf>
+			<grf id="14" idx="15" t="gate" x="125.0" y="214.5" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="15" idx="16" t="gate" x="384.0" y="216.5" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="17" idx="17" t="evt" x="68.0" y="351.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="18" idx="18" t="evt" x="201.0" y="351.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="25" idx="11" t="link" src="17" dest="14"></grf>
+			<grf id="26" idx="10" t="link" src="18" dest="14"></grf>
+			<grf id="27" idx="19" t="evt" x="312.0" y="352.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="28" idx="20" t="evt" x="438.0" y="351.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="29" idx="9" t="link" src="27" dest="15"></grf>
+			<grf id="30" idx="8" t="link" src="28" dest="15"></grf>
+			<grf id="31" idx="21" t="gate" x="704.0" y="350.5" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="32" idx="22" t="evt" x="637.0" y="499.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="33" idx="23" t="evt" x="793.0" y="497.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="34" idx="7" t="link" src="32" dest="31"></grf>
+			<grf id="35" idx="6" t="link" src="33" dest="31"></grf>
+			<grf id="36" idx="24" t="evt" x="572.0" y="349.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="37" idx="25" t="evt" x="1080.0" y="348.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="38" idx="26" t="evt" x="843.0" y="347.0" rmk-width="-1" rmk-height="-1" rmk-show="true"></grf>
+			<grf id="39" idx="5" t="link" src="36" dest="11"></grf>
+			<grf id="40" idx="4" t="link" src="38" dest="11"></grf>
+			<grf id="41" idx="3" t="link" src="37" dest="11"></grf>
+			<grf id="42" idx="2" t="link" src="31" dest="11"></grf>
+			<grf id="43" idx="1" t="link" src="14" dest="9"></grf>
+			<grf id="50" idx="0" t="link" src="15" dest="9"></grf>
+			<grf id="51" idx="27" t="cou" x="13.0" y="606.0" w="502.0" h="214.0"></grf>
+			<grf id="52" idx="28" t="cou" x="907.0" y="614.0" w="280.0" h="223.0"></grf>
+		</page>
+	</pages-manager>
+	<logicals-manager next-id="49">
+		<util  id="47" t="cou" dtitle="true" dgene="true">
+			<courbe-data type="case-analysis" id="1">
+				<courbe-data-param name="leg" value="débordement &#10;"/>
+				<courbe-data-param name="capath" value="/0"/>
+				<courbe-data-param name="resultpath" value="/100/PR/And1"/>
+				<courbe-data-param name="x" value="0"/>
+				<courbe-data-param name="y" value="1"/>
+				<generic key="Min" name="DLG_COURBE_COURBEDATA_GENE_MIN" val="0.0" class="Cvt.Courbe.GenericValueDouble"/>
+				<generic key="Max" name="DLG_COURBE_COURBEDATA_GENE_MAX" val="0.9999664892570557" class="Cvt.Courbe.GenericValueDouble"/>
+				<generic key="Mean" name="DLG_COURBE_COURBEDATA_GENE_MEAN" val="0.846352318372195" class="Cvt.Courbe.GenericValueDouble"/>
+			</courbe-data>
+			<style type="line">
+				<style-options>
+					<style-option key="Axes" id="Color" value="BLACK"/>
+					<style-option key="Background" id="Scale" value="Auto"/>
+					<style-option key="Confidence" id="Show" value="false"/>
+					<style-option key="Limit" id="Auto" value="0"/>
+					<style-option key="Limit" id="BeginX" value="0.0"/>
+					<style-option key="Limit" id="BeginY" value="0.0"/>
+					<style-option key="Limit" id="DisplayDiscontinuity" value="2"/>
+					<style-option key="Limit" id="EndX" value="0.0"/>
+					<style-option key="Limit" id="EndY" value="0.0"/>
+					<style-option key="Logarithmic" id="X" value="false"/>
+					<style-option key="Logarithmic" id="Y" value="false"/>
+					<style-option key="Unit" id="X" value="HOUR"/>
+					<style-option key="Unit" id="XUnitDisplay" value="true"/>
+					<style-option key="Unit" id="Y" value="NO_UNIT"/>
+					<style-option key="Unit" id="YUnitDisplay" value="false"/>
+				</style-options>
+				<courbe-options id="1">
+					<courbe-option key="Courbe" id="Color" value="000000"/>
+					<courbe-option key="Courbe" id="Heavy" value="1"/>
+					<courbe-option key="Courbe" id="Point" value="0"/>
+					<courbe-option key="Courbe" id="Show" value="true"/>
+					<courbe-option key="Courbe" id="ShowMean" value="false"/>
+				</courbe-options>
+			</style>
+		</util>
+		<util  id="48" t="cou" dtitle="true" dgene="true">
+			<courbe-data type="memorized" id="0">
+				<courbe-data-param name="leg" value="Type = U(t) , Name = débordement &#10; "/>
+				<courbe-data-param name="desc" value="Type = U(t) , Name = débordement 
+				 "/>
+				<courbe-data-param name="date" value="1638780921795"/>
+				<courbe-pt x="0.0" y="0.0"/>
+				<courbe-pt x="100.0" y="0.001659125639236419"/>
+				<courbe-pt x="200.0" y="0.009779285203047263"/>
+				<courbe-pt x="300.0" y="0.02699398441612715"/>
+				<courbe-pt x="400.0" y="0.05381745983813703"/>
+				<courbe-pt x="500.0" y="0.08941446965222316"/>
+				<courbe-pt x="600.0" y="0.13221850780211628"/>
+				<courbe-pt x="700.0" y="0.1803745218376372"/>
+				<courbe-pt x="800.0" y="0.23202714876385572"/>
+				<courbe-pt x="900.0" y="0.2854892793253174"/>
+				<courbe-pt x="1000.0" y="0.3393254481769329"/>
+				<courbe-pt x="1100.0" y="0.3923788291005989"/>
+				<courbe-pt x="1200.0" y="0.44376368056461857"/>
+				<courbe-pt x="1300.0" y="0.49283875287653917"/>
+				<courbe-pt x="1400.0" y="0.5391720547639551"/>
+				<courbe-pt x="1500.0" y="0.5825035456032478"/>
+				<courbe-pt x="1600.0" y="0.6227096015127308"/>
+				<courbe-pt x="1700.0" y="0.6597712648456575"/>
+				<courbe-pt x="1800.0" y="0.6937471009738942"/>
+				<courbe-pt x="1900.0" y="0.724750763639524"/>
+				<courbe-pt x="2000.0" y="0.7529329629169835"/>
+				<courbe-pt x="2100.0" y="0.7784673290392502"/>
+				<courbe-pt x="2200.0" y="0.8015395937812545"/>
+				<courbe-pt x="2300.0" y="0.8223395158947702"/>
+				<courbe-pt x="2400.0" y="0.8410550232563594"/>
+				<courbe-pt x="2500.0" y="0.8578681095939008"/>
+				<courbe-pt x="2600.0" y="0.8729520942742247"/>
+				<courbe-pt x="2700.0" y="0.8864699218531754"/>
+				<courbe-pt x="2800.0" y="0.8985732398606789"/>
+				<courbe-pt x="2900.0" y="0.9094020469159803"/>
+				<courbe-pt x="3000.0" y="0.9190847484392176"/>
+				<courbe-pt x="3100.0" y="0.9277384944184407"/>
+				<courbe-pt x="3200.0" y="0.9354697037613939"/>
+				<courbe-pt x="3300.0" y="0.9423747037045825"/>
+				<courbe-pt x="3400.0" y="0.9485404315642562"/>
+				<courbe-pt x="3500.0" y="0.9540451607160675"/>
+				<courbe-pt x="3600.0" y="0.9589592238940111"/>
+				<courbe-pt x="3700.0" y="0.9633457153970608"/>
+				<courbe-pt x="3800.0" y="0.9672611601600167"/>
+				<courbe-pt x="3900.0" y="0.9707561423545193"/>
+				<courbe-pt x="4000.0" y="0.9738758896163884"/>
+				<courbe-pt x="4100.0" y="0.9766608114482466"/>
+				<courbe-pt x="4200.0" y="0.9791469920594892"/>
+				<courbe-pt x="4300.0" y="0.9813666390644765"/>
+				<courbe-pt x="4400.0" y="0.9833484902077676"/>
+				<courbe-pt x="4500.0" y="0.9851181807324203"/>
+				<courbe-pt x="4600.0" y="0.986698574237615"/>
+				<courbe-pt x="4700.0" y="0.9881100599484998"/>
+				<courbe-pt x="4800.0" y="0.9893708192916373"/>
+				<courbe-pt x="4900.0" y="0.9904970645689599"/>
+				<courbe-pt x="5000.0" y="0.9915032523776478"/>
+				<courbe-pt x="5100.0" y="0.9924022742515594"/>
+				<courbe-pt x="5200.0" y="0.9932056268152527"/>
+				<courbe-pt x="5300.0" y="0.9939235635536169"/>
+				<courbe-pt x="5400.0" y="0.9945652301151543"/>
+				<courbe-pt x="5500.0" y="0.9951387848892573"/>
+				<courbe-pt x="5600.0" y="0.9956515064300195"/>
+				<courbe-pt x="5700.0" y="0.9961098891427523"/>
+				<courbe-pt x="5800.0" y="0.9965197285050554"/>
+				<courbe-pt x="5900.0" y="0.9968861969621583"/>
+				<courbe-pt x="6000.0" y="0.9972139115160081"/>
+				<courbe-pt x="6100.0" y="0.9975069939186939"/>
+				<courbe-pt x="6200.0" y="0.9977691242826005"/>
+				<courbe-pt x="6300.0" y="0.9980035888313996"/>
+				<courbe-pt x="6400.0" y="0.9982133224368267"/>
+				<courbe-pt x="6500.0" y="0.9984009465153599"/>
+				<courbe-pt x="6600.0" y="0.9985688027956515"/>
+				<courbe-pt x="6700.0" y="0.9987189834111251"/>
+				<courbe-pt x="6800.0" y="0.9988533577218645"/>
+				<courbe-pt x="6900.0" y="0.9989735962251546"/>
+				<courbe-pt x="7000.0" y="0.9990811918742067"/>
+				<courbe-pt x="7100.0" y="0.9991774790891844"/>
+				<courbe-pt x="7200.0" y="0.9992636507131697"/>
+				<courbe-pt x="7300.0" y="0.9993407731377374"/>
+				<courbe-pt x="7400.0" y="0.9994097997979462"/>
+				<courbe-pt x="7500.0" y="0.9994715832144923"/>
+				<courbe-pt x="7600.0" y="0.999526885741131"/>
+				<courbe-pt x="7700.0" y="0.9995763891580791"/>
+				<courbe-pt x="7800.0" y="0.9996207032366001"/>
+				<courbe-pt x="7900.0" y="0.9996603733862373"/>
+				<courbe-pt x="8000.0" y="0.999695887483928"/>
+				<courbe-pt x="8100.0" y="0.9997276819733671"/>
+				<courbe-pt x="8200.0" y="0.9997561473133256"/>
+				<courbe-pt x="8300.0" y="0.9997816328450494"/>
+				<courbe-pt x="8400.0" y="0.9998044511412132"/>
+				<courbe-pt x="8500.0" y="0.9998248818921198"/>
+				<courbe-pt x="8600.0" y="0.9998431753787795"/>
+				<courbe-pt x="8700.0" y="0.9998595555771311"/>
+				<courbe-pt x="8800.0" y="0.9998742229328715"/>
+				<courbe-pt x="8900.0" y="0.9998873568420958"/>
+				<courbe-pt x="9000.0" y="0.9998991178691577"/>
+				<courbe-pt x="9100.0" y="0.999909649729765"/>
+				<courbe-pt x="9200.0" y="0.999919081064323"/>
+				<courbe-pt x="9300.0" y="0.9999275270238449"/>
+				<courbe-pt x="9400.0" y="0.9999350906883531"/>
+				<courbe-pt x="9500.0" y="0.9999418643355636"/>
+				<courbe-pt x="9600.0" y="0.9999479305757434"/>
+				<courbe-pt x="9700.0" y="0.9999533633669228"/>
+				<courbe-pt x="9800.0" y="0.9999582289231453"/>
+				<courbe-pt x="9900.0" y="0.9999625865270717"/>
+				<courbe-pt x="10000.0" y="0.9999664892570557"/>
+				<generic key="Min" name="DLG_COURBE_COURBEDATA_GENE_MIN" val="0.0" class="Cvt.Courbe.GenericValueDouble"/>
+				<generic key="Max" name="DLG_COURBE_COURBEDATA_GENE_MAX" val="0.9999664892570557" class="Cvt.Courbe.GenericValueDouble"/>
+				<generic key="Mean" name="DLG_COURBE_COURBEDATA_GENE_MEAN" val="0.8466575385566525" class="Cvt.Courbe.GenericValueDouble"/>
+			</courbe-data>
+			<style type="line">
+				<style-options>
+					<style-option key="Axes" id="Color" value="BLACK"/>
+					<style-option key="Background" id="Scale" value="Auto"/>
+					<style-option key="Confidence" id="Show" value="false"/>
+					<style-option key="Limit" id="Auto" value="0"/>
+					<style-option key="Limit" id="BeginX" value="0.0"/>
+					<style-option key="Limit" id="BeginY" value="0.0"/>
+					<style-option key="Limit" id="DisplayDiscontinuity" value="2"/>
+					<style-option key="Limit" id="EndX" value="0.0"/>
+					<style-option key="Limit" id="EndY" value="0.0"/>
+					<style-option key="Logarithmic" id="X" value="false"/>
+					<style-option key="Logarithmic" id="Y" value="false"/>
+					<style-option key="Unit" id="X" value="HOUR"/>
+					<style-option key="Unit" id="XUnitDisplay" value="true"/>
+					<style-option key="Unit" id="Y" value="NO_UNIT"/>
+					<style-option key="Unit" id="YUnitDisplay" value="false"/>
+				</style-options>
+				<courbe-options id="0">
+					<courbe-option key="Courbe" id="Color" value="BLACK"/>
+					<courbe-option key="Courbe" id="Heavy" value="1"/>
+					<courbe-option key="Courbe" id="Point" value="0"/>
+					<courbe-option key="Courbe" id="Show" value="true"/>
+					<courbe-option key="Courbe" id="ShowMean" value="false"/>
+				</courbe-options>
+			</style>
+		</util>
+		<evt id="13" num="1" name="Evt1" desc="V1 bloquee ouverte\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]GLM"><pval val="0.0"/><pval val="1.0E-4" unit="HOUR_1"/><pval val="0.02" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="14" num="2" name="Evt2" desc="C1 HS\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]GLM"><pval val="0.0"/><pval val="0.001" unit="HOUR_1"/><pval val="0.02" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="23" num="3" name="Evt3" desc="V2 bloquee ouverte\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="1.0E-4" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="24" num="4" name="Evt4" desc="c2 hs\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="0.001" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="28" num="5" name="Evt5" desc="V3 bloquee ouverte\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="0.001" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="29" num="6" name="Evt6" desc="V4 bloquee ferme" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="5.0E-4" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="32" num="7" name="Evt7" desc="c3 hs\n" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="0.001" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="33" num="8" name="Evt8" desc="Operateur non fiable" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]constant-23"><pval val="0.05"/><pval val="0.0" unit="HOUR_1"/></law>
+		</evt>
+		<evt id="34" num="9" name="Evt9" desc="Alarme HS" autoname="true" type="BASE" behavior="DEFAULT" tgtvalue="0.0" allocvalue="0.0">
+			<law id="[Aralia]exponential"><pval val="1.0E-4" unit="HOUR_1"/></law>
+		</evt>
+		<link id="9" num="2" name="2" src="7" dest="5"/>
+		<link id="21" num="6" name="6" src="13" dest="10"/>
+		<link id="22" num="7" name="7" src="14" dest="10"/>
+		<link id="25" num="8" name="8" src="23" dest="11"/>
+		<link id="26" num="9" name="9" src="24" dest="11"/>
+		<link id="30" num="10" name="10" src="28" dest="27"/>
+		<link id="31" num="11" name="11" src="29" dest="27"/>
+		<link id="35" num="12" name="12" src="32" dest="7"/>
+		<link id="36" num="13" name="13" src="34" dest="7"/>
+		<link id="37" num="14" name="14" src="33" dest="7"/>
+		<link id="38" num="15" name="15" src="27" dest="7"/>
+		<link id="39" num="16" name="16" src="10" dest="5"/>
+		<link id="46" num="17" name="17" src="11" dest="5"/>
+		<gate id="5" num="1" name="And1" desc="débordement \n" autoname="true" typ="AND" behavior="DEFAULT" tgtvalue="0.0">
+		</gate>
+		<gate id="7" num="3" name="Or3" desc="V3 ouverte et V4 fermee\n" autoname="true" typ="OR" behavior="DEFAULT" tgtvalue="0.0">
+		</gate>
+		<gate id="10" num="4" name="Or4" desc="V1 ouverte\n" autoname="true" typ="OR" behavior="DEFAULT" tgtvalue="0.0">
+		</gate>
+		<gate id="11" num="5" name="Or5" desc="V2 ouverte\n" autoname="true" typ="OR" behavior="DEFAULT" tgtvalue="0.0">
+		</gate>
+		<gate id="27" num="7" name="And7" autoname="true" typ="AND" behavior="DEFAULT" tgtvalue="0.0">
+		</gate>
+	</logicals-manager>
+	<mediator>
+		<connect grph="50" logic="46"/>
+		<connect grph="43" logic="39"/>
+		<connect grph="42" logic="38"/>
+		<connect grph="41" logic="37"/>
+		<connect grph="40" logic="36"/>
+		<connect grph="39" logic="35"/>
+		<connect grph="35" logic="31"/>
+		<connect grph="34" logic="30"/>
+		<connect grph="30" logic="26"/>
+		<connect grph="29" logic="25"/>
+		<connect grph="26" logic="22"/>
+		<connect grph="25" logic="21"/>
+		<connect grph="13" logic="9"/>
+		<connect grph="9" logic="5"/>
+		<connect grph="11" logic="7"/>
+		<connect grph="14" logic="10"/>
+		<connect grph="15" logic="11"/>
+		<connect grph="17" logic="13"/>
+		<connect grph="18" logic="14"/>
+		<connect grph="27" logic="23"/>
+		<connect grph="28" logic="24"/>
+		<connect grph="31" logic="27"/>
+		<connect grph="32" logic="28"/>
+		<connect grph="33" logic="29"/>
+		<connect grph="36" logic="32"/>
+		<connect grph="37" logic="33"/>
+		<connect grph="38" logic="34"/>
+		<connect grph="51" logic="47"/>
+		<connect grph="52" logic="48"/>
+	</mediator>
+	<printer pageformat="595.1905511811024 841.8047244094488 451.19055118110236 697.8047244094488 72.0 72.0 0" filename="true" date="true" version="false" border="true" pagenumber="true" firstpagenumber="1">
+		<paint id="2" font="SansSerif" color="-6750208" size="48" italic="true" bold="true" angle="0.7853981633974483" xalign="2" yalign="2"/>
+		<printer-pages selectionmode="0" digin="true">
+		</printer-pages>
+		<printer-files>
+		</printer-files>
+		<printer-options>
+			<printer-option key="Print" id="PageIndex" value="false"/>
+			<printer-option key="Print" id="TOC" value="false"/>
+			<printer-option key="Print" id="TrackModif" value="false"/>
+		</printer-options></printer>
+	<bank displayed="/0">
+		<ca engineid="arnica" caid="2" name="default-Albizia" catype="default" date="1638784007522">
+			<ca-maps>
+				<ca-map type="10">
+					<ca-map-entry engine="Evt1" log="13"/>
+					<ca-map-entry engine="Evt2" log="14"/>
+					<ca-map-entry engine="Evt3" log="23"/>
+					<ca-map-entry engine="Evt4" log="24"/>
+					<ca-map-entry engine="Evt5" log="28"/>
+					<ca-map-entry engine="Evt6" log="29"/>
+					<ca-map-entry engine="Evt7" log="32"/>
+					<ca-map-entry engine="Evt8" log="33"/>
+					<ca-map-entry engine="Evt9" log="34"/>
+				</ca-map>
+				<ca-map type="11">
+					<ca-map-entry engine="And1" log="5"/>
+					<ca-map-entry engine="And7" log="27"/>
+					<ca-map-entry engine="Or3" log="7"/>
+					<ca-map-entry engine="Or4" log="10"/>
+					<ca-map-entry engine="Or5" log="11"/>
+				</ca-map>
+			</ca-maps>
+			
+			<duration-counter start="1638784007306" stop="1638784007522">
+				<counter-step name="Checking model" time="1638784007306"/>
+				<counter-step name="Writing model" time="1638784007306"/>
+				<counter-step name="Searching computation points" time="1638784007306"/>
+				<counter-step name="loading .dag" time="1638784007422"/>
+				<counter-step name="Building BDD" time="1638784007422"/>
+				<counter-step name="Calculations of probability" time="1638784007422"/>
+				<counter-step name="Calculations of BDD (FI)" time="1638784007422"/>
+				<counter-step name="Calculations of importance" time="1638784007422"/>
+				<counter-step name="Calculations of BDD (cut sets)" time="1638784007422"/>
+				<counter-step name="Generation of cut sets" time="1638784007422"/>
+				<counter-step name="Display of cut sets" time="1638784007422"/>
+				<counter-step name="Reading results" time="1638784007522"/>
+				<counter-step name="Reading results" time="1638784007522"/>
+			</duration-counter>
+			<caparams>
+				<caparam-options>
+					<caparam-option key="Appl" id="LightBatch" value="false"/>
+					<caparam-option key="Aralia" id="Activatepropag" value="false"/>
+					<caparam-option key="Aralia" id="ActivatepropagIF" value="false"/>
+					<caparam-option key="Aralia" id="AlbiziaIndexHeuristic" value="FFK88"/>
+					<caparam-option key="Aralia" id="Allocation" value="false"/>
+					<caparam-option key="Aralia" id="Availability" value="false"/>
+					<caparam-option key="Aralia" id="BDDTruncatedOrder" value="-1"/>
+					<caparam-option key="Aralia" id="BFRAlgo" value="NUCLEAR_NO_CONCAT"/>
+					<caparam-option key="Aralia" id="ConfPercent" value="90"/>
+					<caparam-option key="Aralia" id="ConfPercentIF" value="90"/>
+					<caparam-option key="Aralia" id="ConfRangePosition" value="0"/>
+					<caparam-option key="Aralia" id="ConfRangePositionIF" value="0"/>
+					<caparam-option key="Aralia" id="CutsProba" value="false"/>
+					<caparam-option key="Aralia" id="CutsTime" value="8760.0"/>
+					<caparam-option key="Aralia" id="CutsW" value="false"/>
+					<caparam-option key="Aralia" id="CutsXML" value="false"/>
+					<caparam-option key="Aralia" id="CutsetTruncatedOrder" value="-1"/>
+					<caparam-option key="Aralia" id="CutsetTruncatedProba" value="-1.0"/>
+					<caparam-option key="Aralia" id="CutsetsAlgo" value="MCS"/>
+					<caparam-option key="Aralia" id="CutsetsAutoCfg" value="true"/>
+					<caparam-option key="Aralia" id="Cutslist" value="true"/>
+					<caparam-option key="Aralia" id="Cutsnumber" value="false"/>
+					<caparam-option key="Aralia" id="CutsnumberMax" value="10000000"/>
+					<caparam-option key="Aralia" id="Cutssynthesys" value="false"/>
+					<caparam-option key="Aralia" id="Discont" value="true"/>
+					<caparam-option key="Aralia" id="DiscontIF" value="false"/>
+					<caparam-option key="Aralia" id="ExpDormSimplified" value="false"/>
+					<caparam-option key="Aralia" id="Externaljvm" value="false"/>
+					<caparam-option key="Aralia" id="Externaljvmoptions" value="-mx1500M"/>
+					<caparam-option key="Aralia" id="Factorbp" value="false"/>
+					<caparam-option key="Aralia" id="Factorcif" value="false"/>
+					<caparam-option key="Aralia" id="Factordif" value="true"/>
+					<caparam-option key="Aralia" id="Factormif" value="false"/>
+					<caparam-option key="Aralia" id="Factorraw" value="false"/>
+					<caparam-option key="Aralia" id="Factorrrw" value="false"/>
+					<caparam-option key="Aralia" id="MIFManualAlgoMIF" value="false"/>
+					<caparam-option key="Aralia" id="MIFManualAlgoUFIInit" value="false"/>
+					<caparam-option key="Aralia" id="MIFManualAlgoUFINormal" value="false"/>
+					<caparam-option key="Aralia" id="MIFTypeMIF" value="1"/>
+					<caparam-option key="Aralia" id="MIFTypeUFIInit" value="1"/>
+					<caparam-option key="Aralia" id="MIFTypeUFINormal" value="1"/>
+					<caparam-option key="Aralia" id="Mean" value="false"/>
+					<caparam-option key="Aralia" id="Nbhisto" value="1"/>
+					<caparam-option key="Aralia" id="NbhistoIF" value="1"/>
+					<caparam-option key="Aralia" id="ObsUncertFreeDom" value="0"/>
+					<caparam-option key="Aralia" id="ObsUncertFreeDomNoObs" value="1"/>
+					<caparam-option key="Aralia" id="ProbaF" value="false"/>
+					<caparam-option key="Aralia" id="ProbaFscales" value="PFD"/>
+					<caparam-option key="Aralia" id="ProbaR" value="false"/>
+					<caparam-option key="Aralia" id="Probability" value="true"/>
+					<caparam-option key="Aralia" id="Probabilityscales" value="PFD"/>
+					<caparam-option key="Aralia" id="Probalbdeq" value="false"/>
+					<caparam-option key="Aralia" id="Probalbdeqscales" value="NONE"/>
+					<caparam-option key="Aralia" id="Probaw" value="false"/>
+					<caparam-option key="Aralia" id="Probawscales" value="PFH"/>
+					<caparam-option key="Aralia" id="ProductsFailureComponent" value="false"/>
+					<caparam-option key="Aralia" id="ProductsFailureMode" value="true"/>
+					<caparam-option key="Aralia" id="ProductsFailureSystems" value="false"/>
+					<caparam-option key="Aralia" id="RamsDefault" value="Mean"/>
+					<caparam-option key="Aralia" id="RamsMeanValues" value="false"/>
+					<caparam-option key="Aralia" id="RateBetaModAlpha" value="0.5"/>
+					<caparam-option key="Aralia" id="RateBetaModBeta" value="0.0"/>
+					<caparam-option key="Aralia" id="Scales" value="false"/>
+					<caparam-option key="Aralia" id="Seed" value="12345678"/>
+					<caparam-option key="Aralia" id="ShortestCutSynt" value="false"/>
+					<caparam-option key="Aralia" id="Sum" value="false"/>
+					<caparam-option key="Aralia" id="Target" value="1"/>
+					<caparam-option key="Aralia" id="TargetsIF" value="1"/>
+					<caparam-option key="Aralia" id="TargetsProduct" value="1"/>
+					<caparam-option key="Aralia" id="TargetsSelected" value="Evt2\t"/>
+					<caparam-option key="Aralia" id="TargetsTimeSpent" value="5"/>
+					<caparam-option key="Aralia" id="Times" value="auto 10000"/>
+					<caparam-option key="Aralia" id="TimesIF" value="at 1000"/>
+					<caparam-option key="Aralia" id="TimesUniIFt" value="HOUR"/>
+					<caparam-option key="Aralia" id="TimesUnit" value="HOUR"/>
+					<caparam-option key="Aralia" id="UFINormInit" value="false"/>
+					<caparam-option key="Aralia" id="UFINormNormal" value="false"/>
+					<caparam-option key="Aralia" id="UFIWithoutInit" value="false"/>
+					<caparam-option key="Aralia" id="WCutsAlgo" value="ARP4761A_GRIF"/>
+					<caparam-option key="Aralia" id="ZBDDTruncatedOrder" value="-1"/>
+					<caparam-option key="Aralia" id="forceZBDD" value="false"/>
+					<caparam-option key="Aralia" id="withBackSoP" value="false"/>
+					<caparam-option key="Bool" id="CCFActivated" value="true"/>
+					<caparam-option key="Bool" id="EvtCCFTransform" value="true"/>
+					<caparam-option key="Bool" id="LambdaDCCComputation" value="MAX"/>
+					<caparam-option key="Bool" id="RemoveUnusedCCF" value="true"/>
+					<caparam-option key="Bool" id="RiskCompMax" value="false"/>
+					<caparam-option key="Bool" id="SimplifyTestParam" value="false"/>
+					<caparam-option key="Bool" id="SpuriousComp" value="false"/>
+					<caparam-option key="Bool" id="SumBetaComps" value="false"/>
+					<caparam-option key="Bool" id="SysCompMode" value="0"/>
+					<caparam-option key="Bool" id="UseAllocPrefix" value="false"/>
+					<caparam-option key="Digits" id="Format" value="1000.0 0.01 1 4 false true 1.0E-16 false|false,false,G,R,I,F,C,O,N,T,A,B"/>
+					<caparam-option key="Display" id="PreferredUnitRate" value="HOUR_1"/>
+					<caparam-option key="Display" id="PreferredUnitTime" value="HOUR"/>
+					<caparam-option key="db-cst" id="identifier" value=""/>
+				</caparam-options>
+			
+			</caparams><result-file fileType="DagLawsAndParams">UEsDBBQACAgIABdYhlMAAAAAAAAAAAAAAAA+AAAAQkRERGVmYXVsdENhc2VB
+			bmFseXNpc0RhZ0xhd3NBbmRQYXJhbXMxMjEyMDgwOTIxNzM1NTAzMTg4MC50
+			eHR9zr8KwjAQx/E94DvcXLBNtPEPnRyqCE6+gMR6wkG5lORqfXzpIKUiWW75
+			8P1xEQWcSKB7LwgUg/dyO13PRzjww4CEHiuligwubogQO2zoSY0T8gxZoVo3
+			QP0SA/juPCMLuRZMrutlWS2+upqpzrU2E66TaZlKbQo3M7Q/u9tUuoPGcxTH
+			Moodz4T7//9+AFBLBwjWTYGmjwAAAEgBAABQSwECFAAUAAgICAAXWIZT1k2B
+			po8AAABIAQAAPgAAAAAAAAAAAAAAAAAAAAAAQkRERGVmYXVsdENhc2VBbmFs
+			eXNpc0RhZ0xhd3NBbmRQYXJhbXMxMjEyMDgwOTIxNzM1NTAzMTg4MC50eHRQ
+			SwUGAAAAAAEAAQBsAAAA+wAAAAAA</result-file>
+			<result-file fileType="Data">UEsDBBQACAgIABdYhlMAAAAAAAAAAAAAAAAyAAAAQkRERGVmYXVsdENhc2VB
+			bmFseXNpc0RhdGExNjE0NzUyMTIwNzIxNjM3NDc5NC50eHR9j8sKwjAQRff5
+			ilmJFtTWJq21uHChRRAEf0BijRCQpCTjY+HHm6RUKEg3c+GeufMg8wgqjsKC
+			bUQtb7LmKLWCaE426prAag3jo0lhBEdDQ2WTknjHk+0Tc/iAk6KVpROXy0MP
+			7XqSFi6Cyzo3bV3qXB/pbOa2OMmcbQUCRzTy8kAB0hqt8Vyd9jsIt6F5iJIQ
+			98GBv/48cOcvCNvFu9FKKJT8Dsks3k5p2cFFD8azOE5+LB0K0oEgG2BZj7H+
+			0HwguIRaK4tcoQfMlx8r/l76BVBLBwiWCGTG0QAAANwBAABQSwECFAAUAAgI
+			CAAXWIZTlghkxtEAAADcAQAAMgAAAAAAAAAAAAAAAAAAAAAAQkRERGVmYXVs
+			dENhc2VBbmFseXNpc0RhdGExNjE0NzUyMTIwNzIxNjM3NDc5NC50eHRQSwUG
+			AAAAAAEAAQBgAAAAMQEAAAAA</result-file>
+			<result-file fileType="DagFormula">UEsDBBQACAgIABdYhlMAAAAAAAAAAAAAAAA3AAAAQkRERGVmYXVsdENhc2VB
+			bmFseXNpc0RhZ0Zvcm11bGE0NjgyOTI3Mjg2ODQyNDA1OTE4LnR4dOPS11Jw
+			TyxJLVYoLkhNzkzLTE4syczPU9DS53LMSzFUsLJV0PAvMlZQU/AvMgGTpprW
+			XCARkIxrWYm5Qo0CkLKEUBZACqjPHKzGBKbGECJpBBY1hYkaQ0RNgKIgLTBh
+			U6AtQMoMKAwAUEsHCOvwtfdoAAAAnQAAAFBLAQIUABQACAgIABdYhlPr8LX3
+			aAAAAJ0AAAA3AAAAAAAAAAAAAAAAAAAAAABCREREZWZhdWx0Q2FzZUFuYWx5
+			c2lzRGFnRm9ybXVsYTQ2ODI5MjcyODY4NDI0MDU5MTgudHh0UEsFBgAAAAAB
+			AAEAZQAAAM0AAAAAAA==</result-file>
+			<result-file fileType="Result">UEsDBBQACAgIABdYhlMAAAAAAAAAAAAAAAA0AAAAQkRERGVmYXVsdENhc2VB
+			bmFseXNpc1Jlc3VsdDEzNzc0NzY5MTI2ODU0NTAwMjMxLnR4dMWa3W8VRxLF
+			nxcp/4PFi58Y+qOqPyRMRBJYhShkIcpqd19WBCwWBdvINgT++/3V2Pd6uqfH
+			+yGkWLsOvnNnznR11TmnaubB159O3h18PD6/eHt2enToJ3d4cHz66uz129M3
+			R4ff//zTvVK03vOHXz+88+D8+OLDu8uLxdfDVCfHORx8eXl5/vbXD5cXD+/8
+			af/HwenZ6+Oju49OX/u7B6cvT/j324vzs7PLf/75xfdP7h58fPnuA59dnn84
+			vnufi9xfXOXByfHLiw9gPvzqzsHB7q+Dy8/vj48O//Li8ODi88Xl8cnRoV39
+			cP4SX3t/eXB5dOgeO8dKPu7+db89HKfY/iS+5efvE4Gai4YiPsSSJT++55wc
+			HhyAz4p1klJDkuCSrzFHtcPKvXw4sXNLqFmFj2PN1Qc7GHvwNKXmJ++xdarq
+			c/AB+FprqC12mFxMRVOOsYhE1d3xa/CouTqx+wtVs0t2NPTo/rF9eLXSpNyj
+			plhDTOLr1d3erNR7dSlLdN6lGmQJ1h+MY6w+zLIHj5MkDU589DVnKZpbdLYh
+			iM8+5MJdZs16fXy31qSafHZSck05zWf7NX4b6VT3+Gny4jQ5FS7jlf/1+DnX
+			6qNUl0q6DuYOnqxP3H0QtiFnfg3R2a72J+7Rq109kGUuOskhxRY8TMUBrtxd
+			CtlrXILrROYVi3sNSvzHSw996PNi30VELcGKr76ov9q7HbhMPpaSSuWXSyAs
+			wSs5k2OiRKJ4DVvY6wS/giYkPnPdGL3mrDG20DpRearFZe/Z4FLbPVcJxSu5
+			kkjXIMPCXkClWmNlc3zyFsQWKk85RYlkYKGags/t/sZQXajJizpPov5XHLLM
+			7VLISTUqEMu6BprUdsWT27b/UlzZ3dqMzWWTi2SdJ8Q1Jp/G4F1m36DLFEtk
+			cxN5xfKd9OiBqg0xBPUuem5wiS4Tp6kvUoMxifHbEL22Pzd1raD7LEqGFh+z
+			iz06QXFRoQwXAyUcluhpiqSThJw414XxFksX95AWRU05kj+SIW6Noj149VyQ
+			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
+			eyjardAoXETSxuhwX8wtHJxH/1sj+h2IwwbcVh8AdrUnHeRwtgemK2x0zqMG
+			/LJeJLTYOCVUnVuzxwFSR9B5aqio0kplo/Gcr0fcDVhlS3FeGAUI0bdgsDTL
+			pNPCiyYZkm4/qPMtdLKxParv+jFdxh5RKNHaMX7H2CHj2bFsNuwKcUi//ZCu
+			SeKqyYk1x85M/ArZJifm+DBw189iFj0edaLsEKnm8wZy1hbMnkraIxIKoAtw
+			uXq0Z8/1bJDutQWj1hD2YD7BGuoxWptIuYHGTmF/hB6nH7qDTBCREno/OvW+
+			oZwfpzib79vke6jctI0Nls3hxBIp3rQQezCACKjlNZYod8skXc2rutluRz8s
+			mH762EIXm/CT71SlX0EruWnz/8DhbjcJgfN0Wp47q3FYLjasa8CwUGob6tyq
+			mSEkmCSB38Diso2ioevQUDCgYo8Kh9a63Jq29iDMHlcgU33BGHSGxu3BeFCp
+			HXJ09PXmdpwZizHybYxkA3kyNVVL1RUyi4EdAg262JPFBppMQvmT4EJ8GZts
+			+tMGrNpDNRvj57RaZbQHSDhNx7V8DC2WJksuV+bHkcOk7aeqbQrTT9t0k7TH
+			Ta6QaSXoI830y/7thf0ouZrA0LMUzG4Z8kKdtE2kakYWg5ftlYUVmrlOsafa
+			3uavCzDjjGhP9ZN4Wgcd5lG9zZRBSZgdYxYJupqYc1VjXsE0sqraQlsiOTOL
+			jmoeM6/tpdxAkcOz8eSiq8Sx3LB40ez5qi1Sd2wHNEM9eHN8enz+9tXVy1GH
+			Jy8/3YZ3fX/9SdzD9SRmdBvjk7i38Tk3cXhw//qdK/7a/9vexrr1zazvvn/S
+			vZp18Ors5P3Z6fEpIX388bJ/V+umYjy+NpFK2KXsxJV9k7a+n/8dNmzCVlou
+			NbajmQnQ4ZdEjX/MYuUPWaxuoiYb8cBE1cYpxe/V5kugpk1UgUat80250LTb
+			zO8LwuZNWJMReznLxo3Kir8karklxPbmlKHSCjnvd+8efAnUeksWIyEoaaAZ
+			TC7dmPz/RCHvz89ef3h1eXHv/cvzy4NfP18eXxwd2nug9i7p7uDByfz6qLtr
+			d3f9GunN4XvzWQ9f/O0f7sfn7568Pn3++dtf/hpef/fjU/vs2aP5M3/12d+v
+			Pvt9/kyuPvvt6Vd3vn3ziJ/v7dd3869vnn16+vuz359++umbHx799OiHb579
+			6+mbZ2+ezt97br8eP3a//Pzi+bMnX9159NsvRw/ut/dzZ/8B/178Ma/U7v7l
+			OQx8eXx+9dXmr+s3bB/e+TdQSwcIlpCiV3UNAACYKwAAUEsBAhQAFAAICAgA
+			F1iGU5aQold1DQAAmCsAADQAAAAAAAAAAAAAAAAAAAAAAEJERERlZmF1bHRD
+			YXNlQW5hbHlzaXNSZXN1bHQxMzc3NDc2OTEyNjg1NDUwMDIzMS50eHRQSwUG
+			AAAAAAEAAQBiAAAA1w0AAAAA</result-file>
+		</ca>
+		
+	</bank>
+	
+</JaGrif-Tree>
