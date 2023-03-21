@@ -1,1 +1,1 @@
-# Suret-de-fonctionnement
+# Sureté-de-fonctionnement
